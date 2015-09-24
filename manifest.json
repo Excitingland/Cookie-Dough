@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+
+  "name": "Cookie Doughing",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.5",
+
+  "background": {
+    "page": "image.html"
+  },
+
+  "browser_action": {
+    "default_icon": "CookieDough.png",
+    "default_title": "Show me the cookies!"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "contextMenus",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "storage",
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
